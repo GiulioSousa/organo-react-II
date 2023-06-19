@@ -15,11 +15,13 @@
 }
 
 .colaborador .rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     background: #FFFFFF;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0px 0px 10px 10px;
-    padding-top: 90px;
-    padding-bottom: 40px;
+    padding: 2rem 0;
 }
 
 .colaborador .rodape h4 {
@@ -27,24 +29,20 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: bold;
-    margin-bottom: 8px;
+    padding-top: 3rem;
+    margin: 0;
 }
 
 .colaborador .rodape h5 {
     font-size: 18px;
     line-height: 22px;
     color: #212121;
-    padding: 0 16px;
+    padding: 2rem 1rem;
+    margin: 0;
 }
 
 .deletar {
     position: absolute;
     right: .5rem;
     top: .5rem;
-    /* background-color: #FFF;
-    padding: .5rem;
-    border-radius: 8px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, .2);
-    font-size: .8rem;
-    font-weight: 700; */
 }
