@@ -7,11 +7,11 @@ const Time = ({ time, colaboradores, aoDeletar, mudarCor }) => {
 
     return (
         colaboradores.length > 0 && <section className='time' style={css}>
-            <input 
-                value={time.cor} 
-                type="color" 
-                className='input-cor' 
-                onChange={event => mudarCor(event.target.value, time.nome)}    
+            <input
+                value={time.cor}
+                type="color"
+                className='input-cor'
+                onChange={event => mudarCor(event.target.value, time.id)}
             />
             <h3 style={{ borderColor: time.cor }}>{time.nome}</h3>
             <div className='colaboradores'>
